@@ -18,7 +18,7 @@ export class HomePage {
   videoInstance : any;
   canvasInstance: any;
   canvasContext: any;
-  loading: HTMLIonLoadingElement;
+  loading: HTMLIonLoadingElement = null;
 
   constructor(
     private toastController : ToastController,
@@ -63,7 +63,7 @@ export class HomePage {
       video: { facingMode: 'environment'}
     });
     this.videoInstance.srcObject = stream;
-    this.videoInstance.setAttribute('playsinline', true);
+    // this.videoInstance.setAttribute('playsinline', true);
     this.videoInstance.play();
 
     this.loading = await this.loadingController.create({})

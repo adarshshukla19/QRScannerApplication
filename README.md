@@ -1,7 +1,7 @@
 # QRScannerApplication
  A basic QR code scanning application developed as a submission for a UI test. 
  This application is developed using Ionic platform, used for developing Hybrid cross platform applications. 
- This app can be run in desktop as a PWA, Android and iOS devices. 
+ This app can be run in desktop as a PWA, and also can be run in  Android and iOS devices. 
 
 Assumptions - 
 1. During testing, I used QR codes for URL's mostly. That is the reason, the toast message in the app has an option to view the URL in a new window. All kind of QR codes can be scanned and their data element displayed, only URL type QR codes open in a new window.
@@ -9,12 +9,12 @@ Assumptions -
 Setup -
 For this tutorial, you need to have set up the current versions of Ionic, Cordova and Node/NPM on the machine you are using. In case these tools aren't ready, please see the links below in the respective order-
 1. NPM - https://nodejs.org/en/download/
-2. Ionic - https://ionicframework.com/
-3. Cordova - https://cordova.apache.org/
+2. Ionic - ```npm i -g @ionic/cli```
+3. Cordova - ```npm install -g cordova```
 
 After all of the above are installed, we can now Run and Test the application -
 1. In CMD or Terminal, run ```git clone https://github.com/adarshshukla19/QRScannerApplication.git``` in the folder in which you'd like to contain the project.
-2. In the home directory, navigate to the folder named - QRScanningApplication using ```cd .\QRScanningApplication```
+2. In the home directory, navigate to the folder named - QRScanningApplication using ```cd .\QRScannerApplication\QRScanningApplication\```
 3. Next you will need to get all your node_modules back into your application. All these modules are based on your package.json file. Run 
 
 ```npm install```
@@ -22,12 +22,6 @@ After all of the above are installed, we can now Run and Test the application -
 4. Now you will need to serve the app. Run this command in the terminal -
 
 ```ionic serve```
-
-For deploying the app on Android or iOS devices, follow these steps -
-1. Connect the android device to your laptop.
-2. Enable Developer options in your android device - https://www.samsung.com/ie/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/
-3. Run the following command - 
-```ionic cordova run android -l ```
 
 This should open a browser window for http://localhost:8100/home where you can test the QR Scanner App. 
 

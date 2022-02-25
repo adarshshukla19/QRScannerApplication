@@ -7,7 +7,7 @@ Assumptions -
 1. During testing, I used QR codes for URL's mostly. That is the reason, the toast message in the app has an option to view the URL in a new window. All kind of QR codes can be scanned and their data element displayed, only URL type QR codes open in a new window.
 
 Setup -
-For this tutorial, you need to have set up the current versions of Ionic 2, Cordova and Node/NPM on the machine you are using. In case these tools aren't ready, please see the links below in the respective order-
+For this tutorial, you need to have set up the current versions of Ionic, Cordova and Node/NPM on the machine you are using. In case these tools aren't ready, please see the links below in the respective order-
 1. NPM - https://nodejs.org/en/download/
 2. Ionic - https://ionicframework.com/
 3. Cordova - https://cordova.apache.org/

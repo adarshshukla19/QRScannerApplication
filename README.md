@@ -1,6 +1,8 @@
 # QRScannerApplication
+
  A basic QR code scanning application developed as a submission for a UI test. 
- This application is developed using Ionic platform, used for developing Hybrid cross platform applications. 
+ 
+ This application is developed using Ionic platform in Angular framework, used for developing Hybrid cross platform applications. 
  This app can be run in desktop as a PWA, and also can be run in  Android and iOS devices. 
 
 Assumptions - 
@@ -14,14 +16,13 @@ For this tutorial, you need to have set up the current versions of Ionic, Cordov
 
 After all of the above are installed, we can now Run and Test the application -
 1. In CMD or Terminal, run ```git clone https://github.com/adarshshukla19/QRScannerApplication.git``` in the folder in which you'd like to contain the project.
-2. In the home directory, navigate to the folder named - QRScanningApplication using ```cd .\QRScannerApplication\QRScanningApplication\```
-3. Next you will need to get all your node_modules back into your application. All these modules are based on your package.json file. Run 
-
-```npm install```
+2. In the home directory, navigate to the folder named - QRScanningApplication using 
+  ```cd .\QRScannerApplication\QRScanningApplication\```
+4. Next you will need to get all your node_modules back into your application. All these modules are based on your package.json file. Run 
+  ```npm install```
 
 4. Now you will need to serve the app. Run this command in the terminal -
-
-```ionic serve```
+  ```ionic serve```
 
 This should open a browser window for http://localhost:8100/home where you can test the QR Scanner App. 
 
@@ -39,6 +40,8 @@ Application Walkthrough -
 
 3. Scanned Items - This section displays a list of scanned items with their data element. 
 
-Note - in case of any issues while testing the app, please reach out to me.
+**Note** - in case of any issues while testing the app, please reach out to me.
+
 Author - Adarsh Shukla
+
 email -  adarshshukla19@gmail.com
